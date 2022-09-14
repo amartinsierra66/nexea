@@ -1,6 +1,6 @@
 eureka:
   instance:
-    hotname: S{HOST_NAME}
+    hotname: ${HOST_NAME}
   client:
     serviceUrl:
       defaultZone: http://${IP_EUREKA}:8761/eureka
