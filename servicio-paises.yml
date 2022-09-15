@@ -1,8 +1,8 @@
 eureka:
   instance:
-    hotname: ${HOST_NAME}
+    hotname: 192.168.0.15
   client:
     serviceUrl:
-      defaultZone: http://${IP_EUREKA}:8761/eureka
+      defaultZone: http://192.168.0.15:8761/eureka
 server:
   port: 7000 
